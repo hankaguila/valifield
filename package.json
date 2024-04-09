@@ -4,6 +4,13 @@
   "keywords": ["form validation"],
   "version": "0.1.0",
   "author": "Henry Aguila",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hankaguila/valifield"
+  },
+  "homepage": "https://github.com/hankaguila/valifield#readme",
+  "bugs": "https://github.com/hankaguila/valifield/issues",
   "type": "module",
   "files": [
     "build"
