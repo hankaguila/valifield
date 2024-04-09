@@ -1,10 +1,11 @@
 {
   "name": "valifield",
+  "version": "0.1.0",
   "description": "The minimalist's form validation tool",
   "keywords": [
-    "form validation"
+    "form",
+    "validation"
   ],
-  "version": "0.1.0",
   "author": "Henry Aguila",
   "license": "MIT",
   "repository": {
@@ -13,12 +14,12 @@
   },
   "homepage": "https://github.com/hankaguila/valifield#readme",
   "bugs": "https://github.com/hankaguila/valifield/issues",
-  "type": "module",
   "files": [
     "build"
   ],
   "main": "build/main.js",
   "types": "build/main.d.ts",
+  "type": "module",
   "scripts": {
     "ts": "tsx",
     "build": "shx rm -rf build && tsup src/main.ts -d=build --dts --format=esm"
