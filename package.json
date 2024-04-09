@@ -1,7 +1,9 @@
 {
   "name": "valifield",
   "description": "The minimalist's form validation tool",
-  "keywords": ["form validation"],
+  "keywords": [
+    "form validation"
+  ],
   "version": "0.1.0",
   "author": "Henry Aguila",
   "license": "MIT",
@@ -26,9 +28,7 @@
     "prettier": "^3.2.5",
     "shx": "^0.3.4",
     "tsup": "^8.0.2",
+    "tsx": "^4.7.2",
     "typescript": "^5.4.3"
-  },
-  "dependencies": {
-    "tsx": "^4.7.2"
   }
 }
