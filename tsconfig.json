@@ -1,0 +1,35 @@
+// https://www.typescriptlang.org/tsconfig
+{
+  "compilerOptions": {
+    // Type Checking
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+
+    // Modules
+    "module": "nodenext",
+    "resolveJsonModule": true,
+    "rootDir": "src",
+
+    // Emit
+    "outDir": "build",
+    "sourceMap": true,
+
+    // JavaScript Support
+    "allowJs": true,
+    "checkJs": true,
+
+    // Interop Constraints
+    "isolatedModules": true,
+
+    // Language & Environment
+    "moduleDetection": "force",
+    "target": "esnext",
+
+    // Completeness
+    "skipLibCheck": true
+  },
+  "include": [
+    "src"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "valifield",
+  "description": "The minimalist's form validation tool",
+  "keywords": ["form validation"],
+  "version": "0.1.0",
+  "author": "Henry Aguila",
+  "type": "module",
+  "files": [
+    "build"
+  ],
+  "main": "build/main.js",
+  "types": "build/main.d.ts",
+  "scripts": {
+    "ts": "tsx",
+    "build": "shx rm -rf build && tsup src/main.ts -d=build --dts --format=esm"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.3",
+    "prettier": "^3.2.5",
+    "shx": "^0.3.4",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "tsx": "^4.7.2"
+  }
+}

@@ -1,0 +1,17 @@
+# Exclude
+*
+
+# Include
+!docs
+!docs/**
+!src
+!src/**
+!test
+!test/**
+!.gitignore
+!.npmrc
+!.prettierrc.json
+!LICENSE
+!package.json
+!README.md
+!tsconfig.json
