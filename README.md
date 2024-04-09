@@ -49,7 +49,7 @@ console.log(username); // -> { value: '', error: '', disabled: false }
 
 ![login-form](docs/login-form.gif)
 
-```sveltehtml
+```svelte
 <!-- LoginForm.svelte -->
 
 <script context="module" lang="ts">
